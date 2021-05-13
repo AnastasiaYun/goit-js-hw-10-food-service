@@ -64,9 +64,6 @@ function onChangeTheme(e) {
     if (switchToggle.checked  === true) {
         bodyColor.darkThem()
     }
-//    if (document.body.className === Theme.LIGHT) {
-//        bodyColor.darkThem()    
-//     }
     else {
        bodyColor.lightThem()
     }    
